@@ -1,7 +1,7 @@
 var mytext = prompt("Enter the text with min 5 symbols"));
 var number = 0
 if (mytext.length < 5){
-    alert ("Try again with less symbols")
+    alert ("Try again")
 }
 else
 {
@@ -47,7 +47,7 @@ else
         default:
             number -= 1
     }
-    alert ("Your number is " + number);
+    alert ("Your number is" + number);
 
 }  
             
