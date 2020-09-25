@@ -1,4 +1,4 @@
-var mytext = parseFloat(prompt("Enter the text with min 5 symbols"));
+var mytext = prompt("Enter the text with min 5 symbols"));
 var number = 0
 if (mytext.length < 5){
     alert ("Try again with less symbols")
